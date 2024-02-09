@@ -9,7 +9,6 @@ function Navbar() {
     const scrollPosition = window.scrollY;
     setIsScrolled(scrollPosition > 50); // Change 50 to your desired threshold
   };
-
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -17,7 +16,7 @@ function Navbar() {
   return (
     <nav className={isScrolled ? 'nav scrolled' : 'nav'}>
         <div className="nav-left">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className={isScrolled?"logo-img":""}/>
         </div>
         <div className='nav-right'>
             <ul>

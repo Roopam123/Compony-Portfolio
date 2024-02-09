@@ -5,6 +5,7 @@
     width: 98.7vw;
     padding: 6rem 7rem;
     overflow-x: hidden;
+    flex-wrap: wrap;
 }
 .services-left{
     width: 40vw;
