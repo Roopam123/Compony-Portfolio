@@ -1,0 +1,23 @@
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0px;
+    gap: 10px;
+}
+.copyright>span:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.copyright>span:nth-child(2){
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(102, 116, 204);
+    cursor: pointer;
+}
+.copyright>span:nth-child(2)>a{
+    text-decoration: none;
+}
+.copyright>span:nth-child(2)>a:active{
+    color: black;
+}

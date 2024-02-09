@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 function Intro() {
     return (
         <>
-            <div className='hero'>
+            <div className='hero' id='intro'>
                 <div className="hero-left">
                     <TypeAnimation
                         sequence={[
@@ -17,22 +17,23 @@ function Intro() {
                         repeat={Infinity}
                         style={{ fontSize: '2em', display: 'inline-block' }}
                     />
-                    <span>Accelerating digital innovation for the world
-                        Share your idea, we will build your product and help achieve your vision.</span>
+                    <span>Welcome to Manasvi Technologies (OPC) Pvt. Ltd., where we specialize in transformative App Development, Web Development, and comprehensive IT Services. Our mission is to drive your success through cutting-edge technology solutions tailored to your unique needs and aspirations.</span>
+                    <a href="https://manasvitech.in" target='_blank' className='explore-btn'>Explore More</a>
                 </div>
                 <div className="right">
                     <img src={heroImage} alt="" />
                 </div>
             </div>
-            {/* <div className="blur" style={{ background: "rgb(238 210 255)" }}></div> */}
+            {/* <div className="blur" style={{ background: "rgb(238 210 255)" }}></div> 
+            */}
             <div
                 className="blur"
                 style={{
-                    background: "#C1F5FF",
-                    top: "17rem",
-                    width: "21rem",
-                    height: "11rem",
-                    left: "-9rem",
+                    background: "#d8dbf2",
+                    top: "2rem",
+                    width: "30rem",
+                    height: "60rem",
+                    left: "53rem",
                 }}
             ></div>
         </>

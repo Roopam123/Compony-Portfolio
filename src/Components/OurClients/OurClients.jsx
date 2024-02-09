@@ -1,10 +1,10 @@
-import React from 'react'
-import './OurClients.css'
-import clients from '../../Assets/Clients.jpg'
+import React from 'react';
+import './OurClients.css';
+import clients from '../../Assets/Clients.png';
 
 const OurClients = () => {
   return (
-    <div className='clients'>
+    <div className='clients' id='our-clients'>
       <div className="services-right">
         <img className='services-img-client' src={clients} alt="" />
       </div>

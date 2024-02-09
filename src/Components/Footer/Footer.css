@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #6674CC;
-    padding: 80px 60px;
+    padding: 64px 106px;
     color: white;
     font-family: sans-serif;
 }
@@ -69,6 +69,9 @@ img {
     text-decoration: none;
     position: relative;
     bottom: 5px;
+}
+.links>span:nth-child(2)>ul>li>a:hover{
+    color: white;
 }
 .links>span:nth-child(2)>ul>li {
     list-style: none;

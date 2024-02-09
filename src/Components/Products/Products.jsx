@@ -5,7 +5,7 @@ import produtsData from '../../productsdata'
 
 const Products = () => {
   return (
-    <div className='our-products'>
+    <div className='our-products' id='products'>
       <div className="products-top">
         <span>Our Products</span>
       </div>

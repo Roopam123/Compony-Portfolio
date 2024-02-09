@@ -1,7 +1,7 @@
 import React from 'react';
 import Linkdin from "../../Assets/linkdin.png";
 import Instagram from '../../Assets/insta.png';
-import YouTube from '../../Assets/youtube.ico';
+import x from '../../Assets/x.png';
 import facebook from '../../Assets/fb.png';
 import './Footer.css'
 import logo from '../../Assets/manasvi_logo.png'
@@ -9,7 +9,7 @@ import logo from '../../Assets/manasvi_logo.png'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id='footer'>
             <div className='footer'>
                 <div className="company-name">
                     <span><img src={logo} alt="logo" className='c-logo'/></span>                    
@@ -30,10 +30,10 @@ const Footer = () => {
                     <span>Social Media</span>
                     <span>
                         <ul>
-                            <li><img src={facebook} alt="" />  <a href="/">Fackebook</a> </li>
-                            <li><img src={YouTube} alt="" /> <a href="/">YouTube</a> </li>
-                            <li><img src={Instagram} alt="" /> <a href="/">Instagram</a> </li>
-                            <li><img src={Linkdin} alt="" /> <a href="/">Linkdin</a> </li>
+                            <li><img src={facebook} alt="FaceBook" />  <a href="https://www.facebook.com/people/Manasvi-Technologies-OPC-Pvt-Ltd/61555158365754/" target='_blank'>Fackebook</a></li>
+                            <li><img src={x} alt="YouTube" /> <a href="https://twitter.com/manasvitech01" target='_blank'>Twitter X</a> </li>
+                            <li><img src={Instagram} alt="Insta" /> <a target='_blank' href="https://www.instagram.com/manasvi.technologies?igshid=NTc4MTIwNjQ2YQ%3D%3D" rel="noreferrer">Instagram</a> </li>
+                            <li><img src={Linkdin} alt="" /> <a href="https://www.linkedin.com/in/manasvi-technologies-7aa426262/" target='_blank'>Linkdin</a> </li>
                         </ul>
                     </span>
                 </div>
@@ -41,9 +41,6 @@ const Footer = () => {
                     <span>Address</span>
                     <span>Gate -2, Raj Business Park -3, office 84/85, JK Rd, Minal Residency, Bhopal, Madhya Pradesh 462023</span>
                 </div>
-            </div>
-            <div className='footer-buttom'>
-
             </div>
         </footer>       
     )

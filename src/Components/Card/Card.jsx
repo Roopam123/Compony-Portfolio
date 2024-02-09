@@ -10,6 +10,11 @@ function Card(props) {
       <div className="card-right">
       <span className='card-heading'>{name}</span>
       <span className='card-discription'>{description}</span>
+      <div className='card-btn'>
+        <a href="/">Vedio</a>
+        <a href="/">Details</a>
+        <a href="/">Demo</a>
+      </div>
       </div>
     </div>
   )

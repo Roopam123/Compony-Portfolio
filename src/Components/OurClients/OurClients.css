@@ -3,7 +3,7 @@
     justify-content: space-between;
     background-color: white;
     width: 98.7vw;
-    padding: 6rem 7rem;
+    padding: 6rem 10rem;
     overflow-x: hidden;
     margin-top: 5rem;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
     position: relative;
     left: -1rem;
     border-radius: 19px;
-    top: 2rem;
+    top: -2rem;
 }
 .services-left>span:nth-child(1){
     font-size: 40px;

@@ -5,6 +5,8 @@ import Services from './Components/Services/Services';
 import OurClients from './Components/OurClients/OurClients';
 import Footer from './Components/Footer/Footer';
 import Products from './Components/Products/Products';
+import About from './Components/About/About';
+import CopyRight from './Components/CopyRight/CopyRight';
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       <Products/>
       <Services/>
       <OurClients/>
+      <About/>
       <Footer/>
+      <CopyRight/>
     </div>
   )
 }
