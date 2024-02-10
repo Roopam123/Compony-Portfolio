@@ -1,9 +1,12 @@
 .hero {
     display: flex;
     margin: 80px;
-    margin-top: 20rem;
-    height: 400px;
+    margin-top: 10rem;
+    padding: 2rem 2rem;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
     /* background-image: url("https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/f068200b0c2e168d3d5f8dd7cddd575e.jpeg"); */
 }
 .hero-left {
@@ -77,9 +80,68 @@
     75%  {left:0px; top:50px;}
     100% {left:0px; top:0px;}
   }
-  @media (max-width: 450px) {
+
+         
+  .btn-grad-intro {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    width: 300px;
+    margin-top: 22px;
+    position: relative;
+    left: -10px;
+}
+
+  .btn-grad-intro:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    color: black;
+  }
+
+  @media (max-width: 450px){
+    .hero{
+      margin: 8rem 4rem;
+      padding: 0rem 0rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
     .hero-left{
-      width: 450px;
-      margin-bottom: 100px;
+      padding: 2rem 4rem;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+    .right>img{
+      /* margin: 0px 0px;
+      padding: 0px 0px;
+      transform: scale(0.7);
+      position: relative;
+      left: -4rem; */
+      display: none;
+    }
+    .hero-left>span:nth-child(1) {
+      font-size: 33px;
+    }
+    .btn-grad-intro{
+      width: 200px;
+      font-size: 20px;
+    }
+    .blur{
+      display: none;
     }
   }

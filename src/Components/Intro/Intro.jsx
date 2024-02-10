@@ -18,7 +18,7 @@ function Intro() {
                         style={{ fontSize: '2em', display: 'inline-block' }}
                     />
                     <span>Welcome to Manasvi Technologies (OPC) Pvt. Ltd., where we specialize in transformative App Development, Web Development, and comprehensive IT Services. Our mission is to drive your success through cutting-edge technology solutions tailored to your unique needs and aspirations.</span>
-                    <a href="https://manasvitech.in" target='_blank' className='explore-btn'>Explore More</a>
+                    <a href="https://manasvitech.in" target='_blank' rel="noreferrer" className='btn-grad-intro'>Explore More</a>
                 </div>
                 <div className="right">
                     <img src={heroImage} alt="" />
@@ -29,7 +29,8 @@ function Intro() {
             <div
                 className="blur"
                 style={{
-                    background: "#d8dbf2",
+                    // background: "#d8dbf2",
+                    background:"linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)",
                     top: "2rem",
                     width: "30rem",
                     height: "60rem",

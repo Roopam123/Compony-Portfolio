@@ -1,9 +1,10 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: #6674CC;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
     padding: 64px 106px;
     color: white;
+    flex-wrap: wrap;
     font-family: sans-serif;
 }
 img {
@@ -17,7 +18,7 @@ img {
     gap: 10px;
 }
 
-.company-name>span:nth-child(1)>img {
+.company-name>span>a:nth-child(1)>img {
     border-radius: 50%;
     width: 72px;
     background-color: white;
@@ -34,9 +35,10 @@ img {
     gap: 10px;
 }
 .products>span:nth-child(1){
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     color: white;
+    text-transform: uppercase;
 }
 .products>span:nth-child(2){
     font-size: 16px;
@@ -54,9 +56,10 @@ img {
     gap: 10px;
 }
 .links>span:nth-child(1){
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     color: white;
+    text-transform: uppercase;
 }
 .links>span:nth-child(2) {
     font-size: 16px;
@@ -69,6 +72,7 @@ img {
     text-decoration: none;
     position: relative;
     bottom: 5px;
+    color: black;
 }
 .links>span:nth-child(2)>ul>li>a:hover{
     color: white;
@@ -86,12 +90,22 @@ img {
     gap: 10px;
 }
 .address>span:nth-child(1){
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     color: white;
+    text-transform: uppercase;
+
 }
 .address>span:nth-child(2){
     font-size: 16px;
     font-weight: 500;
     color: black;
+}
+
+@media  (max-width: 450px){
+    .footer{
+        width: 100vw;
+        gap: 20px;
+        height: 800px;
+    }
 }

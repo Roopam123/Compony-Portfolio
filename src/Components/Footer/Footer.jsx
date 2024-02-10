@@ -12,7 +12,7 @@ const Footer = () => {
         <footer id='footer'>
             <div className='footer'>
                 <div className="company-name">
-                    <span><img src={logo} alt="logo" className='c-logo'/></span>                    
+                    <span><a href="https://manasvitech.in/" target='_blank' rel="noreferrer"><img src={logo} alt="logo" className='c-logo' /></a></span>
                     <span>"At Manasvi Technologies(OPC) Pvt. Ltd, we make phone apps that are just right for you. Tell us what you need!"</span>
                 </div>
                 <div className='products'>
@@ -30,19 +30,31 @@ const Footer = () => {
                     <span>Social Media</span>
                     <span>
                         <ul>
-                            <li><img src={facebook} alt="FaceBook" />  <a href="https://www.facebook.com/people/Manasvi-Technologies-OPC-Pvt-Ltd/61555158365754/" target='_blank'>Fackebook</a></li>
-                            <li><img src={x} alt="YouTube" /> <a href="https://twitter.com/manasvitech01" target='_blank'>Twitter X</a> </li>
-                            <li><img src={Instagram} alt="Insta" /> <a target='_blank' href="https://www.instagram.com/manasvi.technologies?igshid=NTc4MTIwNjQ2YQ%3D%3D" rel="noreferrer">Instagram</a> </li>
-                            <li><img src={Linkdin} alt="" /> <a href="https://www.linkedin.com/in/manasvi-technologies-7aa426262/" target='_blank'>Linkdin</a> </li>
+                            <li>
+                                <img src={facebook} alt="FaceBook" />
+                                <a href="https://www.facebook.com/people/Manasvi-Technologies-OPC-Pvt-Ltd/61555158365754/" target='_blank' rel="noreferrer">Fackebook</a>
+                            </li>
+
+                            <li>
+                                <img src={x} alt="YouTube" /> 
+                                <a href="https://twitter.com/manasvitech01" target='_blank' rel="noreferrer">Twitter X</a> 
+                            </li>
+                            <li>
+                                <img src={Instagram} alt="Insta" /> 
+                                <a target='_blank' href="https://www.instagram.com/manasvi.technologies?igshid=NTc4MTIwNjQ2YQ%3D%3D" rel="noreferrer">Instagram</a> 
+                            </li>
+                            <li>
+                                <img src={Linkdin} alt="" /> <a href="https://www.linkedin.com/in/manasvi-technologies-7aa426262/" target='_blank' rel="noreferrer">Linkdin</a>
+                            </li>
                         </ul>
                     </span>
                 </div>
                 <div className="address">
-                    <span>Address</span>
+                    <span>Contact Us</span>
                     <span>Gate -2, Raj Business Park -3, office 84/85, JK Rd, Minal Residency, Bhopal, Madhya Pradesh 462023</span>
                 </div>
             </div>
-        </footer>       
+        </footer>
     )
 }
 

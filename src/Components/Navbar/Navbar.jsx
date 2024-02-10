@@ -5,7 +5,6 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
     setIsScrolled(scrollPosition > 50); // Change 50 to your desired threshold
@@ -25,7 +24,7 @@ function Navbar() {
                 <li><Link to="products" spy={true} smooth={true}>Products</Link></li>
                 <li><Link to="our-services" spy={true} smooth={true}>Services</Link></li>
                 <li><Link to="our-clients" spy={true} smooth={true}>Clients</Link></li>
-                <li><Link to="footer" spy={true} smooth={true}><button className='contect-btn'>Contect Us</button></Link></li>
+                <li><Link to="footer" spy={true} smooth={true}><button className='contect-btn'>Contact Us</button></Link></li>
             </ul>
         </div>    
     </nav>

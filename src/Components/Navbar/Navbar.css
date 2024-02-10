@@ -6,6 +6,7 @@
     top: 0px;
     width: 100vw;
     z-index: 2;
+    text-transform: uppercase;
 }
 .nav-right>ul {
     display: flex;
@@ -33,15 +34,18 @@
     margin-left: 60px;
 }
 .contect-btn {
-    background-color: #007aff;
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
     border: none;
     padding: 10px 21px;
     font-size: 18px;
     color: white;
     position: relative;
     top: -8px;
-    border-radius: 20px;
+    border-radius: 8px;
     cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
 }
 .contect-btn:hover{
     border: none;
@@ -60,3 +64,16 @@
     background-color: black;
     transform: scale(0.99);
 }
+
+  .contect-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+@media (max-width: 450px) {
+    .nav-right>ul{
+        display: none;
+    }
+}
+ 

@@ -23,6 +23,7 @@
     font-size: 40px;
     color: rgb(102, 116, 204);
     font-weight: 600;
+    text-transform: uppercase;
 }
 .services-left>span:nth-child(2){
     font-size: 20px;
@@ -36,4 +37,19 @@
     position: relative;
     left: 20px;
     color: rgb(102, 116, 204);
+    max-width: 450px;
+}
+
+@media (max-width: 450px) {
+    .services{
+        width: 100vw;
+        padding: 6rem 2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+    .services-left{
+        justify-content: center;
+        align-items: center;
+    }
 }

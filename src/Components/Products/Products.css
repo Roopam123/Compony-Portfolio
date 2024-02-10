@@ -11,12 +11,24 @@
     font-size: 50px;
     font-weight: 800;
     color: rgb(102, 116, 204);
+    text-transform: uppercase;
 }
 .products-bottom{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
-/* .products-top:hover{
-    transform: scale(.9);
-} */
+.products-top>span:hover{
+    color: black;
+}
+@media (max-width: 450px) {
+    .our-products{
+        width: 100vw;
+    }
+    .products-bottom{
+        grid-template-columns: 1fr;
+    }
+    .products-top>span{
+        font-size: 30px;
+    }
+}
