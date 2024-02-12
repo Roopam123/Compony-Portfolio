@@ -8,6 +8,7 @@ const Products = () => {
     <div className='our-products' id='products'>
       <div className="products-top">
         <span>Our Products</span>
+        {console.log(produtsData)}
       </div>
       <div className="products-bottom">
         {produtsData.map((item,index)=>(

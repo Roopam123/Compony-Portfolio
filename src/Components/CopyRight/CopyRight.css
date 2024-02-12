@@ -26,8 +26,8 @@
     color: black;
 }
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
     .copyright{
         width: 100vw;
     }
-}
+} */

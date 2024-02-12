@@ -33,14 +33,15 @@
     color: black;
 }
 .about-right>span:nth-child(2){
-    color: white;
+    color: black;
     font-weight: 500;
     font-size: 18px;
+    text-align: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 425px) {
     .about{
-        width: 90vw;
+        width: 100vw;
         margin: 50px 25px;
     }
 }

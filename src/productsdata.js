@@ -47,11 +47,6 @@ const produtsData = [
         name:"Pharmacy Management System",
         discription:"Now running pharmacy is just like drinking a cup of tea with our PMS, easy control on inventory with various features, human resource management system, accounting management, supplier & customer management, create easy tax invoice.",
         img: pharmecy
-    },
-    {
-        name:"School Management",
-        discription:"Comming Soon",
-        img:"https://manasvitech.in/images/resturent.jpg"
     }
 ]
 
