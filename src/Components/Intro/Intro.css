@@ -124,22 +124,14 @@
     align-items: center;
     width: 100vw;
     position: relative;
-    margin: 3rem 0px;
-  }
-  .hero-left{
-    width: 80vw;
+    margin: 10rem 0px;
+    padding: 0px 0px;
   }
   .hero-left{
     display: flex;
+    width: 80vw;
     justify-content: center;
     align-items: center;
-  }
-  .right>img{
-    position: relative;
-    left: -7rem;
-    top: 4rem;
-    transform: scale(0.7);
-    animation: none;
   }
   .btn-grad-intro{
     font-size: 20px;
@@ -148,10 +140,17 @@
     width: 200px;
     padding: 1rem 0px;
   }
-  .right{
+  .right {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-  }
+    /* width: 200px; */
+    position: relative;
+    top: 2rem;
+    left: 0rem;
+    animation: none;
+}
+.right>img{
+  transform: scale(0.8);
+}
 }
