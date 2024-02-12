@@ -82,11 +82,6 @@
 .cancelMenu{
     display: none;
 }
-/* @media (max-width:770px) {
-    .nav-right{
-        display: none;
-    }
-} */
 @media (min-width: 770px) {
     .manu-icon{
         display: none;
@@ -118,4 +113,16 @@
         right: 1rem;
         top: 1rem;
     }
+}
+@media (max-width:450px) {
+    .ourlogo{
+        position: relative;
+        top: -3px;
+        left: -3rem;
+    }
+    .manu-icon{
+        position: relative;
+        top: 1rem;
+        right: 1rem;
+        }
 }

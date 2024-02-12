@@ -51,7 +51,7 @@
 @media (max-width:770px) {
     .review-card{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -73,5 +73,12 @@
     .services-left>span:nth-child(3)>ul{
         position: relative;
         left: -20px;
+    }
+    .review-card-new{
+        position: relative;
+        left: 4rem;
+    }
+    .review-card-new:hover{
+        transform: scale(.8);
     }
 }

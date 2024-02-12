@@ -99,7 +99,19 @@ img {
 .address>span:nth-child(2){
     font-size: 16px;
     font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.address>span:nth-child(3):hover{
     color: black;
+    cursor: pointer;
+}
+.address>span:nth-child(2):hover{
+    color: black;
+}
+.address>span{
+    color: white;
+    font-weight: 500;
 }
 
 @media  (max-width: 450px){

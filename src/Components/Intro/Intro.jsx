@@ -10,7 +10,7 @@ function Intro() {
                 <div className="hero-left">
                     <TypeAnimation
                         sequence={[
-                            'WEB DEVELOPMENT',1000,'SOFTWARE DEVELOPMENT',2000,"IT SERVICES"
+                            'WEB DEVELOPMENT', 1000, 'SOFTWARE DEVELOPMENT', 2000, "IT SERVICES"
                         ]}
                         wrapper="span"
                         cursor={true}
@@ -30,7 +30,7 @@ function Intro() {
                 className="blur"
                 style={{
                     // background: "#d8dbf2",
-                    background:"linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)",
+                    background: "linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)",
                     top: "2rem",
                     width: "30rem",
                     height: "60rem",

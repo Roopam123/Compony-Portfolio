@@ -51,6 +51,8 @@ const Footer = () => {
                 </div>
                 <div className="address">
                     <span>Contact Us</span>
+                    <span>Mobile:- 9302447001</span>
+                    <span>Email:- sales@manasvitech.in</span>
                     <span>Gate -2, Raj Business Park -3, office 84/85, JK Rd, Minal Residency, Bhopal, Madhya Pradesh 462023</span>
                 </div>
             </div>
