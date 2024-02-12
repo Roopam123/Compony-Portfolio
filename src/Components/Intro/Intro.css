@@ -118,13 +118,24 @@
 }
 
 @media (max-width:450px) {
-  .hero-left{
-    width: 80vw;
+  .hero{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .hero-left{
+    width: 100vw;
   }
   .hero-left{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .right>img{
+    position: relative;
+    left: -7rem;
+    top: 4rem;
+    transform: scale(0.7);
   }
 }

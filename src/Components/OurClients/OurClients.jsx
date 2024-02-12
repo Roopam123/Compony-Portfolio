@@ -1,6 +1,8 @@
 import React from 'react';
 import './OurClients.css';
 import clients from '../../Assets/Clients.png';
+import ClientReviewsDetails from '../../reviews.js';
+import ReviewCard from '../ReviewCard/ReviewCard.jsx';
 
 const OurClients = () => {
   return (
@@ -11,17 +13,13 @@ const OurClients = () => {
       <div className="services-left">
         <span>Our Clients</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est autem aliquam, dolorum suscipit inventore placeat ipsum iure libero sit commodi a officia recusandae quasi vitae? Obcaecati dignissimos libero accusamus autem.</span>
-        <span>
-          <ul>
-            <li>Lorem ipsum, dolor sit amet</li>
-            <li>Lorem ipsum, dolor sit amet</li>
-            <li>Lorem ipsum, dolor sit amet</li>
-            <li>Lorem ipsum, dolor sit amet</li>
-            <li>Lorem ipsum, dolor sit amet</li>
-          </ul>
+        <span className='review-card'>
+          {ClientReviewsDetails.map((ele,index)=>(
+            <ReviewCard key={index} name={ele.name} img={ele.img} rating={ele.rating}/>
+          ))}
         </span>
+        </div>
       </div>
-    </div>
   )
 }
 
