@@ -122,12 +122,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65vw;
-    /* margin: 0px 0px; */
-    padding: 0px 0px;
+    width: 100vw;
+    position: relative;
+    margin: 3rem 0px;
   }
   .hero-left{
-    width: 65vw;
+    width: 80vw;
   }
   .hero-left{
     display: flex;
@@ -139,6 +139,7 @@
     left: -7rem;
     top: 4rem;
     transform: scale(0.7);
+    animation: none;
   }
   .btn-grad-intro{
     font-size: 20px;
@@ -151,6 +152,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60vw;
+    width: 300px;
   }
 }
