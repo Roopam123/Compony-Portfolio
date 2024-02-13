@@ -43,8 +43,13 @@
     .about{
         width: 100vw;
         margin: 2rem 0rem;
+        padding: 1rem 2rem;
+        margin: auto;
     }
     .about-right{
-        margin: 20px 0px;
+        margin: 6rem 0px;
+        padding: 0px 0px;
+        position: relative;
+        left: 0px;
     }
 }
