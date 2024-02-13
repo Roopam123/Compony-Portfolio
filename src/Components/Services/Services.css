@@ -75,12 +75,20 @@
     }
     .services-left>span:nth-child(2) {
         width: 93vw;
-        font-size: 27px;
+        font-size: 30px !important;
     }
     .services-left>span:nth-child(3)>ul>li {
-        font-size: 28px;
+        font-size: 28px !important;
     }
     .services-left>span:nth-child(2) {
         font-size: 27px;
+    }
+    .services-img {
+        width: 408px;
+        position: relative;
+        left: -3rem;
+        border-radius: 19px;
+        left: 0rem;
+        top: 8rem;
     }
 }

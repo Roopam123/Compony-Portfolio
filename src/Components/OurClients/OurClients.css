@@ -95,6 +95,8 @@
     }
     .services-img-client {
         position: relative;
-        left: -6rem;
+        left: -8rem;
+        top: 4rem;
+        transform: scale(1.5);
     }
 }

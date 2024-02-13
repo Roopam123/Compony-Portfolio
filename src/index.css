@@ -8,3 +8,9 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
+/* @media screen and (max-width:770px) {
+    *{
+        overflow-x: hidden;
+    }
+} */
