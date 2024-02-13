@@ -35,3 +35,11 @@
         font-size: 30px;
     }
 }
+
+@media screen and (min-width:450px) and (max-width:770px) {
+    .our-products {
+        width: 178vw;
+        margin: 0px 0px;
+        padding: 14rem 3rem;
+    }
+}

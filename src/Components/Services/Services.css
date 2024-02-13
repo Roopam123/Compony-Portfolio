@@ -6,6 +6,7 @@
     padding: 6rem 10rem;
     overflow-x: hidden;
     flex-wrap: wrap;
+    text-align: left;
 }
 .services-left{
     width: 40vw;
@@ -53,9 +54,33 @@
     .services-left{
         justify-content: center;
         align-items: center;
+        text-align: left;
     }
     .services-left>span:nth-child(3){
         position: relative;
         left: -4rem;
+    }
+    .services-left>span:nth-child(2) {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:770px) {
+    .services {
+        display: flex;
+        margin: 0px 0px;
+        padding: 139px 99px;
+        width: 178vw;
+        gap: 0px;
+    }
+    .services-left>span:nth-child(2) {
+        width: 93vw;
+        font-size: 27px;
+    }
+    .services-left>span:nth-child(3)>ul>li {
+        font-size: 28px;
+    }
+    .services-left>span:nth-child(2) {
+        font-size: 27px;
     }
 }

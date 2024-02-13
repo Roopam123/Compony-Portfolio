@@ -111,11 +111,6 @@
     color: black;
   }
 
-@media (max-width:770px) {
-  .blur{
-    display: none;
-  }
-}
 
 @media (max-width:450px) {
   .hero{
@@ -163,4 +158,34 @@
   position: relative;
   left: -3rem;
 }
+.blur{
+  display: none;
+}
+.hero-left>a {
+  position: relative;
+  left: -4rem;
+}
+}
+
+@media screen and (min-width:450px) and (max-width:770px) {
+  .blur{
+    display: none;
+  }
+  .hero {
+    width: 168vw;
+    flex-wrap: nowrap;
+    margin: 16rem 0rem;
+    padding: 3rem 3rem;
+    position: relative;
+    left: 2rem;
+  }
+  .hero-left{
+    font-size: 26px;
+  }
+  .hero-left>span:nth-child(2) {
+    font-size: 30px;
+  }
+  .blur{
+    display: none;
+  }
 }

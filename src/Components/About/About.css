@@ -53,3 +53,13 @@
         left: 0px;
     }
 }
+
+@media screen and (min-width:450px) and (max-width:770px) {
+    .about {
+        width: 148vw;
+        margin: 6rem 8rem;
+    }
+    .about-right>span:nth-child(2) {
+        font-size: 28px;
+    }
+}

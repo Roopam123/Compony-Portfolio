@@ -26,11 +26,13 @@
     font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: left;
 }
 .card-discription{
     color: gray;
     font-size: 18px;
     font-weight: 500;
+    text-align: left;
 }
 .card:hover{
     transform: scale(1.02);
@@ -94,5 +96,28 @@
     }
     .card-right{
         margin: 0px 20px;
+    }
+    .right {
+        position: relative;
+        top: -54px;
+        left: 7px;
+    }
+    .card-heading {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:770px) {
+    .card-heading {
+        font-size: 32px
+    }
+    .card-discription{
+        font-size: 26px;
+    }
+    .card-btn>a {
+        padding: 18px 18px;
+    }
+    .card-btn{
+        margin-top: 2rem;
     }
 }
