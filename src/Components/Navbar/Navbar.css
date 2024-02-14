@@ -18,6 +18,9 @@
     list-style: none;
     text-decoration: none;
 }
+.nav-right>ul>li:hover{
+    color: black;
+}
 .nav-right>ul>li>Link:hover{
     color: black;
     border-bottom: 2px solid black;
