@@ -126,11 +126,12 @@
         top: -3px;
         left: -3rem;
     }
-    .manu-icon{
+    .manu-icon>i>svg {
+        font-size: 2rem;
         position: relative;
-        top: 1rem;
-        right: 1rem;
-        }
+        left: 0rem;
+        top: 9px;
+    }
     
 }
 @media screen and (min-width:450px) and (max-width:770px) {

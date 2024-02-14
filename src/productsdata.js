@@ -10,7 +10,7 @@ import pharmecy from '../src/Assets/products_image/pharmecy.png'
 const produtsData = [
     {
         name:"E-Commerce",
-        discription: "A Complete Business Software Specialized to manage any trade like commission agents, Pesticides Fertilizer Dealer Electronics and Mobile Dealers, FMCG etc",
+        discription: "Revolutionizing retail with seamless online shopping experience. Integrating user-friendly interface, secure transactions, and efficient logistics for ultimate customer satisfaction. Empowering businesses and consumers alike in the digital marketplace.",
         img: ecom
     },
     {
