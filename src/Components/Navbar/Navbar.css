@@ -20,6 +20,7 @@
 }
 .nav-right>ul>li:hover{
     color: black;
+    font-weight: 600;
 }
 .nav-right>ul>li>Link:hover{
     color: black;
@@ -35,6 +36,7 @@
 .ourlogo {
     width: 65px;
     margin-left: 60px;
+    cursor: pointer;
 }
 .contect-btn {
     background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
@@ -156,5 +158,7 @@
         .ourlogo {
             width: 110px;
             margin-left: 39px;
+            position: relative;
+            left: 23px;
         }
 }

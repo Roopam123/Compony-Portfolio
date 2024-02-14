@@ -97,11 +97,19 @@ img {
     text-transform: uppercase;
 
 }
-.address>span:nth-child(2){
+.address>span:nth-child(2)>a{
     font-size: 16px;
     font-weight: 500;
     color: white;
     cursor: pointer;
+    text-decoration: none;
+}
+.address>span:nth-child(3)>a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 .address>span:nth-child(3):hover{
     color: black;
@@ -142,10 +150,10 @@ img {
     .links>span:nth-child(2)>ul>li {
         font-size: 25px;
     }
-    .address>span:nth-child(2) {
+    .address>span:nth-child(2)>a {
         font-size: 25px;
     }
-    .address>span:nth-child(3) {
+    .address>span:nth-child(3)>a {
         font-size: 25px;
     }
     .address>span:nth-child(4) {

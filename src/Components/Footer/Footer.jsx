@@ -36,12 +36,12 @@ const Footer = () => {
                             </li>
 
                             <li>
-                                <img src={x} alt="YouTube" /> 
-                                <a href="https://twitter.com/manasvitech01" target='_blank' rel="noreferrer">Twitter X</a> 
+                                <img src={x} alt="YouTube" />
+                                <a href="https://twitter.com/manasvitech01" target='_blank' rel="noreferrer">Twitter X</a>
                             </li>
                             <li>
-                                <img src={Instagram} alt="Insta" /> 
-                                <a target='_blank' href="https://www.instagram.com/manasvi.technologies?igshid=NTc4MTIwNjQ2YQ%3D%3D" rel="noreferrer">Instagram</a> 
+                                <img src={Instagram} alt="Insta" />
+                                <a target='_blank' href="https://www.instagram.com/manasvi.technologies?igshid=NTc4MTIwNjQ2YQ%3D%3D" rel="noreferrer">Instagram</a>
                             </li>
                             <li>
                                 <img src={Linkdin} alt="" /> <a href="https://www.linkedin.com/in/manasvi-technologies-7aa426262/" target='_blank' rel="noreferrer">Linkdin</a>
@@ -51,9 +51,10 @@ const Footer = () => {
                 </div>
                 <div className="address">
                     <span>Contact Us</span>
-                    <span>Mobile:- 9302447001</span>
-                    <span>Email:- sales@manasvitech.in</span>
-                    <span>Gate -2, Raj Business Park -3, office 84/85, JK Rd, Minal Residency, Bhopal, Madhya Pradesh 462023</span>
+                    <span> <a href="tel:+919302447001">Phone: +919302447001</a></span>
+                    <span><a href="mailto:manasvitech01@gmail">Email: manasvitech01@gmail</a></span>
+                    <span>Corporate Office:111B,80 Feet Road, Old Ashoka Garden Bhopal(462023)
+                    </span>
                 </div>
             </div>
         </footer>

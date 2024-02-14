@@ -3,7 +3,7 @@ import "./Card.css";
 // import services from '../../Assets/services.jpg'
 
 function Card(props) {
-  const {name,description,img} = props
+  const {name,description,img,url} = props
   return (
     <div className='card'>
       <div className='card-left'><img src={img} alt=""/></div>
@@ -13,7 +13,7 @@ function Card(props) {
       <div className='card-btn'>
         <a href="/">Video</a>
         <a href="/">Details</a>
-        <a href="/">Demo</a>
+        <a href={url} target='_blank'>Demo</a>
       </div>
       </div>
     </div>

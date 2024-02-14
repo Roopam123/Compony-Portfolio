@@ -11,7 +11,8 @@ const produtsData = [
     {
         name:"E-Commerce",
         discription: "Revolutionizing retail with seamless online shopping experience. Integrating user-friendly interface, secure transactions, and efficient logistics for ultimate customer satisfaction. Empowering businesses and consumers alike in the digital marketplace.",
-        img: ecom
+        img: ecom,
+        url:"https://manasvimart.in/"
     },
     {
         name:"Hotel Management System",
@@ -20,8 +21,9 @@ const produtsData = [
     },
     {
         name:"Clinic Management System",
-        discription:"Amazing product for all our doctors, manage your clinic like never before,Easy and handy to work, take and manage appointment, patient & doctor, also generate tax invoice.[]",
-        img:clinic
+        discription:"Amazing product for all our doctors, manage your clinic like never before,Easy and handy to work, take and manage appointment, patient & doctor, also generate tax invoice.",
+        img:clinic,
+        url:"https://cliniccare.online/"
     },
     {
         name:"Restaurant Management System",
@@ -31,17 +33,19 @@ const produtsData = [
     {
         name:"Tiffin Management System",
         discription:"Now get full control on incoming and outgoing of your Tiffin’s , get all information about pending payments etc. get all subscribers list with address and mode of distribution at one place.",
-        img:tiffin
+        img:tiffin,
+        url:"https://mcstiffin.in/"
     },
     {
         name:"Sales Person Management System ",
         discription:"Now track your sales by tracing the sales done by your sales executive’s Online quotation form, gives sales target, manage & create meetings & To-do list.",
-        img: sales
+        img: sales,
     },
     {
         name:"Salon Management System ",
         discription:"Book appointment online, gives your customer out of the box experience, also add products which customer can buy online, create tax invoice with ease, get all your customer data at one place.",
-        img: saloon
+        img: saloon,
+        url:"https://www.mcssaloon.in/"
     },
     {
         name:"Pharmacy Management System",
