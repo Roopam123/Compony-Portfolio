@@ -129,7 +129,7 @@
     .manu-icon>i>svg {
         font-size: 2rem;
         position: relative;
-        left: 0rem;
+        left: -1rem;
         top: 9px;
     }
     
